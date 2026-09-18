@@ -31,12 +31,12 @@ for _ in range(20):
     kbd.send(Keycode.DOWN_ARROW)
     time.sleep(0.05)
 
-# 4. 2 kere Yukarı Ok tuşuna bas
+
 for _ in range(2):
     kbd.send(Keycode.UP_ARROW)
     time.sleep(0.05)
 
-# 5. 1 kere Sol Ok tuşuna bas
+
 kbd.send(Keycode.LEFT_ARROW)
 time.sleep(0.05)
 
