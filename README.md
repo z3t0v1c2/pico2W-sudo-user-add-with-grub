@@ -1,0 +1,1 @@
+# pico2W-sudo-user-add-with-grub
