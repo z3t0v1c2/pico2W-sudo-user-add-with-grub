@@ -72,7 +72,7 @@ time.sleep(4)
 layout.write("sync && reboot -f")
 time.sleep(0.05)
 kbd.send(Keycode.ENTER)
-# created by z3t0v1c2
+# created by @z3t0v1c2
 # Disclaimer / Sorumluluk Reddi
 #This tool is developed for educational and authorized security testing purposes only. 
 #The developer assumes no liability and is not responsible for any misuse or damage caused by this program.
